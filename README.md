@@ -68,7 +68,7 @@ Open `http://127.0.0.1:5071`. Never commit `.env` or an API key.
 
 ## Deployment
 
-Create a **new public repository for this assignment**, preserving the local development commits. It is separate from the earlier coursework repository and the source Flask fork.
+The assignment uses a new public repository, [CART498-A04-Readymade](https://github.com/HuskUrsa/CART498-A04-Readymade), separate from the earlier coursework repository and Flask fork. The repository preserves the app’s development commits from the initial paired studio through label chaining, real generation tests, and this reflection.
 
 On Render, create a Python Web Service connected to that repository:
 
