@@ -83,6 +83,6 @@ python -m unittest discover -s tests -v
 node --check static/studio.js
 ```
 
-Tests mock the provider: label schema/word-count failures, label-first image chaining, absence of raw-description leakage, partial image failure, busy/exhausted allowances, input validation, CSRF and required page controls. A live paid provider generation must be checked separately; mocked fixtures are not evidence of model output or visual fidelity.
+Tests mock the provider: label schema/word-count failures, label-first image chaining, absence of raw-description leakage, partial image failure, busy/exhausted allowances, input validation, CSRF and required page controls. A separate approved real-provider test completed: a crushed blue bottle cap produced the 102-word label “Sacramental Seal” and a museum-vitrine image, using GPT-4.1 Mini and GPT Image 1 Mini. Browser history retained the result after refresh. The generated image and full response are saved locally outside the public repository. This single result is evidence of working integration, not exhaustive semantic or visual validation.
 
 See `SOURCES.md` for the bounded source map. No real theorist is presented as a fictional citation in generated labels.
