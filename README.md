@@ -1,5 +1,7 @@
 # Readymade — Church collection
 
+[Open the live app](https://building-the-church-readymade.onrender.com) · [Public repository](https://github.com/HuskUrsa/CART498-A04-Readymade)
+
 A CART 498 Assignment 4 application by Sam Hoyek, adapted with Codex. An audience member describes an ordinary object. The app writes a fictional museum tombstone and an extended label, then generates the object installed in an exhibition **from that label**.
 
 The curatorial world crosses **Outsideness**, Sam Hoyek’s evolving worldbuilding practice, with **Building The Church**, his fictional church-building project. The crossover is an application experiment, not a new canonical chapter. No source manuscript is bundled or silently rewritten.
@@ -70,13 +72,13 @@ Open `http://127.0.0.1:5071`. Never commit `.env` or an API key.
 
 The assignment uses a new public repository, [CART498-A04-Readymade](https://github.com/HuskUrsa/CART498-A04-Readymade), separate from the earlier coursework repository and Flask fork. The repository preserves the app’s development commits from the initial paired studio through label chaining, real generation tests, and this reflection.
 
-On Render, create a Python Web Service connected to that repository:
+The public app is deployed on Render’s free Python Web Service, connected to that repository:
 
 - Build: `pip install -r requirements.txt`
-- Start: `gunicorn app:app --timeout 240`
+- Start: `gunicorn app:app --workers 1 --timeout 240`
 - Environment: `OPENAI_API_KEY` and a random `FLASK_SECRET_KEY`
 
-Submit the new repository URL and working deployment URL to the [Assignment 4 Moodle portal](https://moodle.concordia.ca/moodle/mod/assign/view.php?id=4616706). Public repository creation, deployment, final reflection approval and Moodle submission remain separate from local implementation.
+Submit the new repository URL and working deployment URL to the [Assignment 4 Moodle portal](https://moodle.concordia.ca/moodle/mod/assign/view.php?id=4616706). The repository and public deployment are published. Final Moodle submission remains a separate step.
 
 ## Models, limits and costs
 
