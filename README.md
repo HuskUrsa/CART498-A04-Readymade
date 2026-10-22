@@ -2,17 +2,17 @@
 
 A CART 498 Assignment 4 application by Sam Hoyek, adapted with Codex. An audience member describes an ordinary object. The app writes a fictional museum tombstone and an extended label, then generates the object installed in an exhibition **from that label**.
 
-The curatorial world crosses **Outsideness**, Sam Hoyek’s evolving worldbuilding practice, with **Building the Church / Holy Boom!**, his fictional church-building project. The crossover is an application experiment, not a new canonical chapter. No source manuscript is bundled or silently rewritten.
+The curatorial world crosses **Outsideness**, Sam Hoyek’s evolving worldbuilding practice, with **Building The Church**, his fictional church-building project. The crossover is an application experiment, not a new canonical chapter. No source manuscript is bundled or silently rewritten.
 
 ## Concept and prompt rules
 
-In the source fiction, obsolete shipping cardboard becomes hand-worked sacred architecture. The Church is simultaneously a place of worship, construction, study, and creative labour. Its collective promise remains entangled with obedience, institutional control, and the loss of individuality. Outsideness contributes recognizable reality disturbed through ritual spectacle and synthetic mythology. Here the museum’s accession of a pocket object becomes another way that an institution consecrates matter. That last connection is an interpretive proposal for this app.
+In the source fiction, obsolete shipping cardboard becomes hand-worked sacred architecture. The Church is simultaneously a place of worship, construction, study, and creative labour. Its collective promise remains entangled with obedience, institutional control, and the loss of individuality. Outsideness contributes recognizable reality disturbed through ritual spectacle and synthetic mythology. The gallery is imagined as existing inside this fictional world: its objects, labels and exhibitions are treated as things an audience could encounter there. This worldbuilding is the point of the experiment, rather than a claim about any real institution.
 
 The app does not automatically turn every object into cardboard, a cathedral or occult symbolism. Its material identity must remain recognizable. Each label chooses one concrete tension rather than reciting the entire world.
 
 The IAE devices draw on Alix Rule and David Levine’s [“International Art English” (2012)](https://tc3.canopycanopycanopy.com/legacy/contents/international_art_english): abstract nominalizations, long subordinated sentences, theoretical framing verbs, and institutional authority. They become explicit rules in `gallery.py`:
 
-1. Preserve the object’s material, colour, wear, recognizable form and former use. Scale changes must be explicit in its dimensions.
+1. Preserve the object’s material, colour, wear, recognizable form and former use. Preserve dimensions supplied by the user; otherwise state a plausible or deliberate exhibition scale explicitly.
 2. Invent every artist and theoretical reputation. No real artists, critics, curators, celebrity founders or attributed quotations.
 3. Produce all tombstone fields: artist and bio, title, year, medium, dimensions, provenance, credit line.
 4. Keep the extended label at 80–120 words and cite one invented theorist and their invented book within it.
@@ -39,11 +39,17 @@ The output pairs exhibition documentation with a structured tombstone and extend
 
 **Pause motion** stops the background video and particles. Reduced-motion and hidden-tab behavior are retained. The background uses a texture from the earlier free Hugging Face generation, animated through an exact 15-second travelling-wave cycle without a dissolve or reverse playback. Background provenance is in `static/art/background-periodic-provenance.json`.
 
-## Reflection — analytical draft for Sam’s review
+## Reflection
 
-A language model can reproduce this dialect because its linguistic patterns recur across art-world documents. Predicting the next plausible phrase can reproduce the appearance of curatorial authority without establishing a convincing interpretation. Rule and Levine’s account of recognition and status makes that distinction useful here. The Church’s sacred reuse and the museum’s accession both change an object’s standing through an institutional frame. This machine tests that parallel, but its fluency is also its risk: an elegant label can conceal a failure to attend to the object. Material accuracy and the label-to-image chain make that failure visible rather than treating fluent prose as evidence of thought.
+It sounds pretty much like every museum I’ve been in. I think it’s easy for a language model to reproduce because the writing already feels predictably algorithmic or pattern based. Art writers and curators seem to work in a very recognizable pattern and cadence. It feels like its own meta language that’s easy to sniff out once you know it, iykyk type shit.
 
-This is AI-assisted analysis, not a claim that Sam has personally completed the reading or approved this reflection. The source fiction remains Sam’s; implementation and generated labels are distinct artifacts.
+One line from the walking-cane test stood out to me:
+
+> Drawing on Theo Malvine’s theory of Cultivation and Embodiment in Sanctified Space from his book Theatre of Vestiges, Hepworth’s cane becomes a site of worshipful negotiation between protection and protocol, asserting that the apparatus of support is inseparable from the durability of belief.
+
+This sounds totally believable. Very CCRU, very theoryfiction vibes. The theorist and book are invented, but the way the citation sits inside the sentence feels familiar enough to work as theoretical support. That recognizable structure seems to do a lot of the work. The model can reproduce the cadence and the kinds of connections that make the writing sound like it belongs in a museum.
+
+My Church connection was mostly an interest in a fictionalized world in which this experiment could exist, as though these would be the real exhibits within that world. Building The Church is my fictional church-building project, and Outsideness is my developing worldbuilding practice. The app gives me a way to imagine objects, histories and exhibitions that could belong there. The label and image together make a small part of that world visible.
 
 ## Run locally
 

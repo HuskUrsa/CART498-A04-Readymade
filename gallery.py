@@ -3,7 +3,7 @@ import json
 import re
 
 WORLD_CONTEXT = '''This is an experimental theoryfiction crossing of Sam Hoyek's Outsideness,
-an evolving worldbuilding practice, and Building the Church / Holy Boom!, a fictional
+an evolving worldbuilding practice, and Building The Church, a fictional
 church-building project. The crossover is a new application experiment, not settled canon.
 The Church converts obsolete shipping cardboard into hand-worked sacred architecture:
 gothic height, brutalist foundations, a studio/campus/workshop built through collective labour.
@@ -11,7 +11,10 @@ Creation can become worship; waste can become infrastructure. Keep the unresolve
 between care and coercion, communion and loss of individuality, beauty and institutional control.
 Outsideness allows a recognizable parallel life to rupture through ritual spectacle and synthetic
 mythology. A submitted object can become a relic, a construction tool, a failed sacrament,
-or evidence that an institution is teaching itself to believe. Keep this materially specific,
+or evidence that an institution is teaching itself to believe. Treat the gallery and its exhibits
+as existing inside this fictional world, not merely as a parody of outside-world art writing.
+Never use the retired alternate title of Building The Church in any generated field.
+Keep this materially specific,
 strange and occasionally funny; never a generic occult aesthetic or a motivational sermon.
 Do not claim the fictional cardboard engineering is a real tested construction method.
 Do not import celebrity founders or real artists, critics, curators or theorists from source notes.

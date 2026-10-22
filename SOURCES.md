@@ -4,10 +4,10 @@ This app is an AI-assisted adaptation of selected motifs, not a reprint or revis
 
 ## Sam-authored source writing
 
-- **Building the Church, Session 1** — source note `session_01_foundations.md`, July 2026. Creation as worship; pleasure and discipline; collective ambition and moral ambiguity. Marked `authorship: sam`, `editing_policy: human_only`.
-- **Building the Church, Session 2** — source note `session_02_the_church.md`, July 2026. Obsolete cardboard remade into sacred infrastructure; visible collective handwork; gothic/brutalist architecture; builders versus public; church/studio/campus hybridity. Marked `authorship: sam`, `editing_policy: human_only`.
+- **Building The Church, Session 1** — source note `session_01_foundations.md`, July 2026. Creation as worship; pleasure and discipline; collective ambition and moral ambiguity. Marked `authorship: sam`, `editing_policy: human_only`.
+- **Building The Church, Session 2** — source note `session_02_the_church.md`, July 2026. Obsolete cardboard remade into sacred infrastructure; visible collective handwork; gothic/brutalist architecture; builders versus public; church/studio/campus hybridity. Marked `authorship: sam`, `editing_policy: human_only`.
 
-Both belong to **Building the Church / Holy Boom!**, Sam’s fictional church-building project. Their real celebrity figures are deliberately excluded from generated artistic and theoretical attributions. Cardboard engineering remains fictional, not a factual construction claim.
+Both belong to **Building The Church**, Sam’s fictional church-building project. Their real celebrity figures are deliberately excluded from generated artistic and theoretical attributions. Cardboard engineering remains fictional, not a factual construction claim.
 
 ## Worldbuilding synthesis and recorded direction
 
